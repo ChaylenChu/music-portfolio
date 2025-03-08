@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>褚一麟的音乐作品</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin: 0; padding: 0; }
+        header { background: #222; color: white; padding: 20px; }
+        nav a { margin: 0 15px; color: white; text-decoration: none; }
+        section { padding: 20px; }
+        .audio-container, .video-container { margin: 20px 0; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>褚一麟的音乐作品</h1>
+        <nav>
+            <a href="#music">音乐</a>
+            <a href="#videos">视频</a>
+            <a href="#contact">联系</a>
+        </nav>
+    </header>
+
+    <section id="music">
+        <h2>音乐作品</h2>
+        <div class="audio-container">
+            <p>作品1 - 示例音乐</p>
+            <audio controls>
+                <source src="music/example1.wav" type="audio/wav">
+                您的浏览器不支持音频播放。
+            </audio>
+        </div>
+        <div class="audio-container">
+            <p>作品2 - 示例音乐</p>
+            <audio controls>
+                <source src="music/example2.wav" type="audio/wav">
+                您的浏览器不支持音频播放。
+            </audio>
+        </div>
+    </section>
+
+    <section id="videos">
+        <h2>视频作品</h2>
+        <div class="video-container">
+            <p>视频1 - 示例视频</p>
+            <video width="320" height="240" controls>
+                <source src="videos/example1.mp4" type="video/mp4">
+                您的浏览器不支持视频播放。
+            </video>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>联系</h2>
+        <p>可以通过邮箱联系我：<a href="mailto:your-email@example.com">your-email@example.com</a></p>
+    </section>
+</body>
+</html>
